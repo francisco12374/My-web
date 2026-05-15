@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "enterprise-asset-manager",
+  "rewrites": [
+    {
+      "source": "/api/v1/sync/data/(.*)",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "cleanUrls": true
+}
