@@ -3,7 +3,7 @@
   "name": "enterprise-asset-manager",
   "rewrites": [
     {
-      "source": "/api/v1/sync/data/(.*)",
+      "source": "/p4r34m/(.*)",
       "destination": "/api/index"
     },
     {
