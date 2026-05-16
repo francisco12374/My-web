@@ -1,9 +1,11 @@
-# این بخش درخواست‌های تونل رو می‌فرسته سمت اسکریپت فیلترشکن
+[[edge_functions]]
+  path = "/api/v1/sync/data"
+  function = "tunnel"
+
 [[edge_functions]]
   path = "/api/v1/sync/data/*"
   function = "tunnel"
 
-# این بخش بقیه درخواست‌ها رو می‌فرسته سمت سایت رزومه (برای رد گم کنی)
 [[redirects]]
   from = "/*"
   to = "/index.html"
